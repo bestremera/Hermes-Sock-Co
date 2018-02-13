@@ -1,0 +1,188 @@
+/*colors
+
+#FF8600 bright orange
+#0081b2 dark blue
+#0091C9
+#00b8ff neon blue
+
+*/
+
+/*PARAGRAPH*/
+*{
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+
+}
+
+.logo-1{
+	width: 80%;
+	padding: .5rem 1.5rem;
+}
+
+
+/*TOP BAR*/
+.top-bar{
+	background-color: #FF8600;
+	height: 3.5rem;
+}
+
+/*top bar hover*/
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+	background-color: #0091C9;
+}
+
+/*active tab*/
+.top-bar-section li.active:not(.has-form) a:not(.button){
+	background-color: #00b8ff;
+	    line-height: 3.5rem;
+}
+
+/*ul expanded title area*/
+.top-bar.expanded .title-area{
+	background-color: #FF8600;
+}
+
+/*right nav*/
+.top-bar-section li:not(.has-form) a:not(.button){
+	background-color: #FF8600;
+	height: 3.5rem;
+    line-height: 3.5rem;
+    text-transform: uppercase;
+    font-family: balboa-plus-fill, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.slide-1{
+	background-color: red;
+}
+
+/*FOOTER*/
+footer{
+	 background-color: #f7f7f7;
+	 padding: 2rem;
+	 border-bottom: 5px solid #0091C9;
+}
+
+footer .fa{
+	font-size: 2rem;
+	line-height: 4;
+	color: #00b8ff;
+
+}
+
+footer .sock-logo{
+	width: 55%;
+}
+
+/* footer desc */
+.description{
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	/*border-bottom: 1px solid red;*/
+
+}
+
+/*icon bar*/
+.icon-bar > *{
+	background-color: #00b8ff;
+}
+
+
+
+h1{
+	font-weight: 800;
+}
+/*PRODUCT GRID*/
+/*PAGES */
+.product-title{
+	font-weight: 800;
+}
+
+.product-title span{
+	font-weight: 400;
+	font-size: 1rem;
+	position: absolute;
+	top: 20%;
+	left: 60%;
+	transform: rotate(-5deg);
+	background-color: yellow;
+	color: #fff;
+}
+
+.product-title a{
+	text-decoration-style: none;
+	color: #000;
+}
+
+/*RELATED*/
+aside h1{
+	font-weight: 100;
+	font-size: 2.5rem;
+}
+
+/*LIMITED ED*/
+.limited-spotlight{
+	background-color: #00b8ff;
+	padding: 2.5rem 0;
+	color: #fff;
+	
+}
+
+.tag{
+	background-color: yellow;
+	padding: .2rem;
+}
+
+/*LIMITED PANEL*/
+.limited-spotlight .panel{
+	background-color: #0091C9;
+	border: none;
+
+}
+
+.limited-spotlight .panel h4{
+	color: #fff;
+	font-weight: 200;
+	padding: .5rem 0;
+}
+
+/*price*/
+.limited-spotlight .panel h5{
+	padding: .5rem 0;
+}
+
+
+
+.spotlight-limited{
+	color: #FFF;
+	border-bottom: 2px solid #0091C9;;
+}
+
+/*CONTACT*/
+
+.contact-form{
+	padding: 3.5rem;
+	background-color:;
+}
+
+
+.contactpls{
+	font-weight: 400;
+	color: #FF8600;
+}
+
+.contactpls span{
+	font-weight: 700;
+
+}
+
+.sticker{
+	font-size: 1.2rem;
+	color: #0081b2;
+}
+
+
+
