@@ -95,6 +95,8 @@ footer .sock-logo{
 h1{
 	font-weight: 800;
 }
+
+
 /*PRODUCT GRID*/
 /*PAGES */
 .product-title{
@@ -123,6 +125,13 @@ aside h1{
 	font-size: 2.5rem;
 }
 
+/*INNER PAGES TITLE*/
+.hero-title{
+	background: url("../img/brick-bg.jpg");
+	background-size: cover;
+	padding: 3.5rem 0;
+
+}
 /*LIMITED ED*/
 .limited-spotlight{
 	background-color: #00b8ff;
@@ -131,9 +140,14 @@ aside h1{
 	
 }
 
+/*TAG*/
 .tag{
 	background-color: yellow;
 	padding: .2rem;
+}
+
+.tag a{
+	color: #000;
 }
 
 /*LIMITED PANEL*/
@@ -154,14 +168,19 @@ aside h1{
 	padding: .5rem 0;
 }
 
-
-
+ 
+/*limited ed h1*/
 .spotlight-limited{
 	color: #FFF;
-	border-bottom: 2px solid #0091C9;;
+	
 }
 
-/*CONTACT*/
+.spotlight-limited span{
+	border-bottom: 2px solid #0091C9;
+}
+
+
+/*CONTACT SECTION*/
 
 .contact-form{
 	padding: 3.5rem;
@@ -169,6 +188,7 @@ aside h1{
 }
 
 
+/*contant h1*/
 .contactpls{
 	font-weight: 400;
 	color: #FF8600;
@@ -179,13 +199,10 @@ aside h1{
 
 }
 
+/*labels*/
 .sticker{
 	font-size: 1.2rem;
 	color: #0081b2;
 }
 
-.splash-text{
-	position: relative;
-	bottom: 25%;
-}
 
