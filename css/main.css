@@ -184,5 +184,8 @@ aside h1{
 	color: #0081b2;
 }
 
-
+.splash-text{
+	position: relative;
+	bottom: 0;
+}
 
