@@ -130,8 +130,16 @@ aside h1{
 	background: url("../img/brick-bg.jpg");
 	background-size: cover;
 	padding: 3.5rem 0;
+	color: #fff
 
 }
+
+.product-page-h1{
+	color: #FF8600;
+	font-weight: 800;
+}
+
+
 /*LIMITED ED*/
 .limited-spotlight{
 	background-color: #00b8ff;
