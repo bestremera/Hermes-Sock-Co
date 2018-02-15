@@ -52,11 +52,11 @@
 
     <!-- SPLASH FEATURED -->
     <section class="main">
-          <ul class="example-orbit-content" data-orbit data-options="animation_speed:1500;slide_number: false;next_on_click: true;timer_progress_class: false;next_class: false;prev_class: false">
+          <ul class="example-orbit-content" data-orbit data-options="animation_speed:1500;slide_number: false;next_on_click: true;timer_progress_class: false;next_class: false;prev_class: false; timer: false">
 
             <!-- LI 1 -->
             <li data-orbit-slide="headline-1">
-              <div>
+              
                   <div class="column medium-6">
                     
                     <div class="group">   
@@ -70,14 +70,13 @@
                       <p class="product-description">
                         Painted between 1484 and 1486, the Birth of Venus by Sandro Botticelli is a masterful piece of work. Botticelli depicts Venus, the goddess of love, sex, beauty, and fertility, perched upon a seashell, newly borne of the sea. Now, take this goddess with you anywhere and let her beauty reign supreme! 
                       </p>
-                      <p><a class="button radius" href="cart.html">Add to Cart</a></p>
                     </div>
                   </div>
 
                   <div class="column medium-6">
                     <img src="img/bov-crop-3.jpg" alt="slide 1">
                   </div>
-              </div>
+              
             </li>
 
             <!-- LI 2 -->
@@ -91,7 +90,6 @@
                     </h1>
                     <h2 class="product-price">$13</h2>
                     <p class="product-description">Oooooooh,  La Gioconda. Created in 1503-1506 by Leonardo Da Vinci, the original Mona Lisa has a pricetag of nearly $800 million. Now, don the timeless Mona in 360&deg; fashion, and serve looks from every angle! </p>
-                    <p><a class="button radius" href="cart.html">Add to Cart</a></p>
                   </div>
               </div>
 
@@ -112,7 +110,6 @@
                         <span><a href="../selling-fast/index.html">#SellingFast</a></span></h1>
                     <h2 class="product-price">$10</h2>
                     <p class="product-description">At first glance, this appears like any other rose portriat. However, upon close inspection, you will find that this is not the case. Painted in 1958 by one Salvador Dali, the Meditative Rose is a painting that provokes careful reflection unlike any other. But wait-hold that thought and take this crop of Meditative Rose with you wherever you go. </p>
-                    <p><a class="button radius" href="../cart.html">Add to Cart</a></p>
                   </div>
                   </div>
 
@@ -229,10 +226,19 @@
       <label><span class="sticker">What's on your mind?</span>
         <textarea placeholder="My package arrived on time and look even more beautiful in person! Thanks so much :)))"></textarea>
       </label>
+      <a href="#" class="button expand" data-reveal-id="myModal">Submit</a>
     </div>
   </div>
 
     </section>
+
+    <!-- SUBMIT MODAL -->
+    <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+      <h2 id="modalTitle">Awesome. I have it.</h2>
+      <p class="lead">Your couch.  It is mine.</p>
+      <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+      <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
 
 
     <footer>

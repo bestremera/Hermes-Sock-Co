@@ -54,18 +54,17 @@
 }
 
 /*HOMEPAGE*/
-.group{
-	position: relative;
-	bottom: 0%;
-}
-
 .orbit-container{
-	background-color: #f7f7f7;
+	background-image: url("../img/orbit-bg.jpg");
+	background-size: cover;
 }
 
 .group .product-title, .group .product-price{
 	color: #fff;
-	font-size: 1.5rem;
+}
+
+.group{
+	padding: 5rem;	
 }
 
 
@@ -108,7 +107,12 @@ h1{
 	font-weight: 800;
 }
 
-
+.main img{
+	width: 100%;
+}
+.main .column{
+	padding: 0;
+}
 /*PRODUCT GRID*/
 /*PAGES */
 .product-title{
@@ -139,14 +143,15 @@ aside h1{
 
 /*INNER PAGES TITLE*/
 .hero-title{
-	background: url("../img/brick-bg.jpg");
+	background: url("../img/orbit-bg.jpg");
 	background-size: cover;
 	padding: 3.5rem 0;
 	color: #fff;
 }
 
+/*HERO TITLE*/
 .product-page-h1{
-	color: #FF8600;
+	color: #00b8ff;
 	font-weight: 800;
 }
 
@@ -169,6 +174,11 @@ aside h1{
 	color: #000;
 }
 
+.panel h4{
+	font-weight: 200;
+	padding: .5rem 0;
+}
+
 /*LIMITED PANEL*/
 .limited-spotlight .panel{
 	background-color: #0091C9;
@@ -178,9 +188,9 @@ aside h1{
 
 .limited-spotlight .panel h4{
 	color: #fff;
-	font-weight: 200;
-	padding: .5rem 0;
 }
+
+
 
 /*price*/
 .limited-spotlight .panel h5{
