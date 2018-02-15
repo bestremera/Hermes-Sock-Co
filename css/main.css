@@ -53,9 +53,21 @@
 	font-weight: 600;
 }
 
-.slide-1{
-	background-color: red;
+/*HOMEPAGE*/
+.group{
+	position: relative;
+	bottom: 0%;
 }
+
+.orbit-container{
+	background-color: #f7f7f7;
+}
+
+.group .product-title, .group .product-price{
+	color: #fff;
+	font-size: 1.5rem;
+}
+
 
 /*FOOTER*/
 footer{
@@ -130,8 +142,7 @@ aside h1{
 	background: url("../img/brick-bg.jpg");
 	background-size: cover;
 	padding: 3.5rem 0;
-	color: #fff
-
+	color: #fff;
 }
 
 .product-page-h1{
