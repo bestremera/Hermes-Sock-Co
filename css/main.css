@@ -77,8 +77,14 @@
 	background-color: transparent;
 }
 
+.product-price{
+	font-size: 1.5rem;
+}
 
-
+/*PRODUCT PRICE*/
+.product-price span, .small-price{
+	border-bottom: 3px solid #00b8ff;
+}
 
 /*TAG*/
 .main .product-title span{
@@ -148,7 +154,7 @@ h1{
 	font-size: 2rem;
 }
 
-/*tag*/
+/*ag*/
 .product-title span{
 	font-weight: 400;
 	font-size: 1rem;
@@ -249,7 +255,7 @@ aside h1{
 }
 
 .panel h4{
-	font-weight: 200;
+	font-weight: 300;
 	padding: .5rem 0;
 	font-size: 1.25rem;
 }
@@ -261,15 +267,33 @@ aside h1{
 
 }
 
+
 .limited-spotlight .panel h4{
 	color: #fff;
 }
 
+/*ORDER H1*/
+.order span{
+	border-bottom: 5px solid #00b8ff;
+}
+
+.order{
+	padding-bottom: 1.5rem;
+}
+
+.order-content{
+	padding: 2.5rem;
+}
 
 
 /*price*/
 .limited-spotlight .panel h5{
 	padding: .5rem 0;
+}
+
+
+.limited-spotlight .tag{
+	font-size: .75rem;
 }
 
  
