@@ -58,22 +58,36 @@
 }
 
 /*HOMEPAGE*/
-.orbit-container{
+.main .orbit-container{
 	background-image: url("../img/table-pattern-mural.jpg");
 	background-size: cover;
 }
 
+/*orbit text*/
+.group{
+	padding: 5rem;	
+}
 .group .product-title, .group .product-price{
 	color: #fff;
 }
 
 .group .product-price{
 	color: purple;
+	font-size: 2.5rem;
+	background-color: transparent;
 }
 
-.group{
-	padding: 5rem;	
+
+
+
+/*TAG*/
+.main .product-title span{
+	position: relative;
+	left: 0%;
+	bottom: 50%;
 }
+
+
 
 
 /*FOOTER*/
@@ -124,25 +138,44 @@ h1{
 /*PRODUCT GRID*/
 /*PAGES */
 
-
-.product-title{
-	font-weight: 800;
+.all-content{
+	padding: 3.5rem 0;
 }
 
+/*product title*/
+.product-title{
+	font-weight: 800;
+	font-size: 2rem;
+}
+
+/*tag*/
 .product-title span{
 	font-weight: 400;
 	font-size: 1rem;
-	position: absolute;
-	top: 20%;
-	left: 60%;
-	transform: rotate(-5deg);
 	background-color: yellow;
 	color: #fff;
 }
 
+/*inner tag position*/
+.tags{
+	position: absolute;
+	top: 6%;
+	left: 50%;
+	transform: rotate(-5deg);
+	
+}
+
+.button{
+	background-color: #FF8600;
+    border-color: #FF8600;
+}
+
 .product-title a{
-	text-decoration-style: none;
 	color: #000;
+}
+
+.product-description{
+	padding: 1.5rem 0rem;
 }
 
 .product-grid .panel{
@@ -163,10 +196,28 @@ aside h1{
 
 /*INNER PAGES TITLE*/
 .hero-title{
-	background: url("../img/orbit-bg.jpg");
-	background-size: cover;
 	padding: 3.5rem 0;
 	color: #fff;
+}
+
+.hero-title-c{
+	background: url("../img/cropped-index-bg.jpg");
+	background-size: cover;
+}
+
+.hero-title-360{
+	background: url("../img/hope-tiles-mural.jpg");
+	background-size: cover;
+}
+
+.hero-title-colors{
+	background: url("../img/shirt-pattern-mural.jpg");
+	background-size: cover;
+}
+
+.hero-title-shop{
+	background: url("../img/table-pattern-mural.jpg");
+	background-size: cover;
 }
 
 /*HERO TITLE*/
