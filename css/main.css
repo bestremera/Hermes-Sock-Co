@@ -53,14 +53,22 @@
 	font-weight: 600;
 }
 
+.breadcrumbs{
+	margin-bottom: 0;
+}
+
 /*HOMEPAGE*/
 .orbit-container{
-	background-image: url("../img/orbit-bg.jpg");
+	background-image: url("../img/table-pattern-mural.jpg");
 	background-size: cover;
 }
 
 .group .product-title, .group .product-price{
 	color: #fff;
+}
+
+.group .product-price{
+	color: purple;
 }
 
 .group{
@@ -115,6 +123,8 @@ h1{
 }
 /*PRODUCT GRID*/
 /*PAGES */
+
+
 .product-title{
 	font-weight: 800;
 }
@@ -135,6 +145,16 @@ h1{
 	color: #000;
 }
 
+.product-grid .panel{
+	background-color: #fff;
+	border-color: #FF8600;
+
+}
+
+.products{
+	margin: 2rem 0 0 0;
+}
+
 /*RELATED*/
 aside h1{
 	font-weight: 100;
@@ -151,10 +171,13 @@ aside h1{
 
 /*HERO TITLE*/
 .product-page-h1{
-	color: #00b8ff;
+	color: #FFF;
 	font-weight: 800;
 }
 
+.product-page-h1 span{
+	border-bottom: 5px solid #FF8600;
+}
 
 /*LIMITED ED*/
 .limited-spotlight{
@@ -177,6 +200,7 @@ aside h1{
 .panel h4{
 	font-weight: 200;
 	padding: .5rem 0;
+	font-size: 1.25rem;
 }
 
 /*LIMITED PANEL*/
