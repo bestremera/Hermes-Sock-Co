@@ -15,15 +15,15 @@
 }
 
 .logo-1{
-	width: 80%;
-	padding: .5rem 1.5rem;
+	width: 100%;
+	padding: 5%;
 }
 
 
 /*TOP BAR*/
 .top-bar{
 	background-color: #FF8600;
-	height: 3.5rem;
+	height: 5rem;
 }
 
 /*top bar hover*/
@@ -34,7 +34,7 @@
 /*active tab*/
 .top-bar-section li.active:not(.has-form) a:not(.button){
 	background-color: #00b8ff;
-	    line-height: 3.5rem;
+	    line-height: 5rem;
 }
 
 /*ul expanded title area*/
@@ -45,8 +45,8 @@
 /*right nav*/
 .top-bar-section li:not(.has-form) a:not(.button){
 	background-color: #FF8600;
-	height: 3.5rem;
-    line-height: 3.5rem;
+	height: 5rem;
+    line-height: 5rem;
     text-transform: uppercase;
     font-family: balboa-plus-fill, sans-serif;
 	font-style: normal;
@@ -65,16 +65,69 @@
 
 /*orbit text*/
 .group{
-	padding: 5rem;	
+	padding: 0 3.5rem;
+	margin: 5rem 0;
+  		
 }
-.group .product-title, .group .product-price{
+
+.group, .group .product-title, .group .product-price{
 	color: #fff;
 }
 
 .group .product-price{
-	color: purple;
+	color: #FFF;
 	font-size: 2.5rem;
 	background-color: transparent;
+	margin: 0rem 2rem;
+	font-weight: 400;
+	border-bottom: 5px solid #00b8ff;
+}
+
+.group .product-description{
+	font-size: 1.35rem;
+}
+
+@media only screen and (min-width: 90.063em) { 
+	.group .product-description{
+		font-size: 1.75rem;
+	}
+}
+
+@media only screen and (min-width: 120.063em) { 
+	.group .product-description{
+		font-size: 3rem;
+	}
+
+	.group .product-price{
+		font-size: 3.5rem;
+	}
+
+	.button{
+		font-size: 2rem;
+	}
+
+	.group .product-title{
+		font-size: 3.5rem;
+	}
+
+	.tag{
+		font-size: 1.5rem;
+	}
+
+
+
+}
+
+
+
+.group .button{
+	background-color: transparent;
+	border: 3px solid;
+	border-radius: 15px;
+    border-color: #00b8ff;
+    text-transform: uppercase;
+    font-weight: 500;
+    
 }
 
 .product-price{
@@ -84,6 +137,11 @@
 /*PRODUCT PRICE*/
 .product-price span, .small-price{
 	border-bottom: 3px solid #00b8ff;
+}
+
+/*product description*/
+.product-description{
+	font-weight: 400;
 }
 
 /*TAG*/
@@ -111,7 +169,7 @@ footer .fa{
 }
 
 footer .sock-logo{
-	width: 55%;
+	width: 80%;
 }
 
 /* footer desc */
@@ -171,6 +229,7 @@ h1{
 	
 }
 
+
 .button{
 	background-color: #FF8600;
     border-color: #FF8600;
@@ -186,7 +245,7 @@ h1{
 
 .product-grid .panel{
 	background-color: #fff;
-	border-color: #FF8600;
+	border-top: 5px solid #FF8600;
 
 }
 
@@ -222,6 +281,11 @@ aside h1{
 }
 
 .hero-title-shop{
+	background: url("../img/table-pattern-mural.jpg");
+	background-size: cover;
+}
+
+.confirmation{
 	background: url("../img/table-pattern-mural.jpg");
 	background-size: cover;
 }
@@ -273,7 +337,7 @@ aside h1{
 }
 
 /*ORDER H1*/
-.order span{
+.order span, .cart-span{
 	border-bottom: 5px solid #00b8ff;
 }
 
@@ -289,6 +353,7 @@ aside h1{
 /*price*/
 .limited-spotlight .panel h5{
 	padding: .5rem 0;
+	color: #fff
 }
 
 
@@ -316,6 +381,7 @@ aside h1{
 }
 
 
+
 /*contant h1*/
 .contactpls{
 	font-weight: 400;
@@ -332,5 +398,43 @@ aside h1{
 	font-size: 1.2rem;
 	color: #0081b2;
 }
+
+/*feedback*/
+#feedback{
+	background: url("../img/table-pattern-mural.jpg");
+	background-size: cover;
+	color: #fff;
+}
+
+#modalTitle{
+	color: #fff;
+	font-weight: 600;
+}
+
+.cart-grid{
+	padding: 2.5rem;
+}
+
+.confirmation .product-grid{
+	color: #fff;
+}
+
+.confirmation .product-grid h1{
+	font-size: 3.5rem;
+	color: #FFF;
+
+}
+
+.confirmation .product-grid p{
+	font-size: 1.5rem;
+}
+
+.bottom{
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	left: 0%;
+}
+
 
 
