@@ -111,8 +111,10 @@ if( $('.cart').length ){
 		    var prod_heading = htmlDoc.querySelector("main h1").innerHTML;
 		    // Select the price from content
 		    var prod_price = htmlDoc.querySelector("main h2").innerHTML;
+		    // remove span tag from markup
+		    var prod_price_clean = prod_price.replace(/<\/?span[^>]*>/g,"");
 		    // remove the dollar sign from the price
-		    var prod_price_num = prod_price.replace(/[$]/,'');
+		    var prod_price_num = prod_price_clean.replace(/[$]/,'');
 		    // Select the image from content
 		    var prod_image = htmlDoc.querySelector("main img").src;
 		    // remove path from image file reference

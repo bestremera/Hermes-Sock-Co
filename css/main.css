@@ -15,8 +15,9 @@
 }
 
 .logo-1{
-	width: 100%;
-	padding: 5%;
+	height: 40px;
+    margin: 20px 20px;
+	
 }
 
 
@@ -336,6 +337,12 @@ aside h1{
 	color: #fff;
 }
 
+/*price*/
+.limited-spotlight .panel h5{
+	padding: .5rem 0;
+	color: #fff
+}
+
 /*ORDER H1*/
 .order span, .cart-span{
 	border-bottom: 5px solid #00b8ff;
@@ -350,13 +357,10 @@ aside h1{
 }
 
 
-/*price*/
-.limited-spotlight .panel h5{
-	padding: .5rem 0;
-	color: #fff
-}
 
 
+
+/*spotlight*/
 .limited-spotlight .tag{
 	font-size: .75rem;
 }
@@ -393,7 +397,7 @@ aside h1{
 
 }
 
-/*labels*/
+/*labels / sticker*/
 .sticker{
 	font-size: 1.2rem;
 	color: #0081b2;
@@ -429,12 +433,18 @@ aside h1{
 	font-size: 1.5rem;
 }
 
-.bottom{
-	position: absolute;
+/*BOTTOM*/
+/*.bottom{
 	bottom: 0%;
 	width: 100%;
 	left: 0%;
-}
+}*/
 
+/*FOOTER TO BOTTOM
+cart bottom, order bottom, .confirmation .bottom
+ */
+.cart .bottom, .order .bottom, .confirmation .bottom{
+	margin-top: 15%;
+}
 
 
