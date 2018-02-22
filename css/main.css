@@ -296,6 +296,7 @@ aside h1{
 	background-size: cover;
 }
 
+
 /*HERO TITLE*/
 .product-page-h1{
 	color: #FFF;
@@ -349,8 +350,11 @@ aside h1{
 }
 
 /*ORDER H1*/
-.order span, .cart-span{
+.order span{
 	border-bottom: 5px solid #00b8ff;
+	color: #000;
+}
+.cart-span{
 	color: #fff;
 }
 
@@ -451,7 +455,7 @@ aside h1{
 	font-size: 2rem;
 }
 
-.cart .bottom, .order .bottom, {
+.cart .bottom, .order .bottom{
 	margin-top: 15%;
 }
 
