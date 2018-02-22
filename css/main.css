@@ -291,6 +291,11 @@ aside h1{
 	background-size: cover;
 }
 
+.cart{
+	background: url("../img/hope-tiles-mural.jpg");
+	background-size: cover;
+}
+
 /*HERO TITLE*/
 .product-page-h1{
 	color: #FFF;
@@ -346,6 +351,7 @@ aside h1{
 /*ORDER H1*/
 .order span, .cart-span{
 	border-bottom: 5px solid #00b8ff;
+	color: #fff;
 }
 
 .order{
@@ -372,16 +378,23 @@ aside h1{
 	
 }
 
+.confirmation .spotlight-limited span{
+	font-size: 2rem;
+}
+
+
 .spotlight-limited span{
 	border-bottom: 2px solid #0091C9;
 }
+
+
+
 
 
 /*CONTACT SECTION*/
 
 .contact-form{
 	padding: 3.5rem;
-	background-color:;
 }
 
 
@@ -429,22 +442,19 @@ aside h1{
 
 }
 
-.confirmation .product-grid p{
-	font-size: 1.5rem;
+/*CONFIRMATION SPOTLIGHT DESC*/
+.spotlight-content-desc{
+	font-size: 1rem;
 }
 
-/*BOTTOM*/
-/*.bottom{
-	bottom: 0%;
-	width: 100%;
-	left: 0%;
-}*/
+.confirmation-msg{
+	font-size: 2rem;
+}
 
-/*FOOTER TO BOTTOM
-cart bottom, order bottom, .confirmation .bottom
- */
-.cart .bottom, .order .bottom, .confirmation .bottom{
+.cart .bottom, .order .bottom, {
 	margin-top: 15%;
 }
 
-
+.confirmation .bottom{
+	margin-top: 5%;
+}
