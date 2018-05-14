@@ -15,7 +15,7 @@
 }
 
 .logo-1{
-	height: 40px;
+	height: 80px;
     margin: 20px 20px;
 	
 }
@@ -24,7 +24,7 @@
 /*TOP BAR*/
 .top-bar{
 	background-color: #FF8600;
-	height: 5rem;
+	height: 8rem;
 }
 
 /*top bar hover*/
@@ -35,7 +35,7 @@
 /*active tab*/
 .top-bar-section li.active:not(.has-form) a:not(.button){
 	background-color: #00b8ff;
-	    line-height: 5rem;
+	    line-height: 8rem;
 }
 
 /*ul expanded title area*/
@@ -46,8 +46,8 @@
 /*right nav*/
 .top-bar-section li:not(.has-form) a:not(.button){
 	background-color: #FF8600;
-	height: 5rem;
-    line-height: 5rem;
+	height: 8rem;
+    line-height: 8rem;
     text-transform: uppercase;
     font-family: balboa-plus-fill, sans-serif;
 	font-style: normal;
@@ -56,6 +56,11 @@
 
 .breadcrumbs{
 	margin-bottom: 0;
+}
+@media only screen and (min-width: 40.0625em){
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+	border-right: none;
+	}
 }
 
 /*HOMEPAGE*/
